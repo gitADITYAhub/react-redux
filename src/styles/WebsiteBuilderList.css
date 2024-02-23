@@ -1,0 +1,14 @@
+/* WebsiteBuilderList.css */
+.website-builder-list {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background to distinguish from the items */
+  }
+/* WebsiteBuilderList.css */
+.website-builder-list {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+    

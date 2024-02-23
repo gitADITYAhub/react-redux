@@ -1,0 +1,195 @@
+/* WebsiteBuilderItem.css */
+.website-builder-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .website-builder-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .website-builder-rank {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .website-builder-title {
+    flex-grow: 1;
+  }
+  
+  .website-builder-badge {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .website-builder-badge.bestchoice {
+    background-color: #007bff;
+  }
+  
+  .website-builder-badge.bestvalue {
+    background-color: #28a745;
+  }
+  
+  .website-builder-rating {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 24px;
+    color: #ffc107; /* Assuming a yellow star rating */
+  }
+  
+  .website-builder-description {
+    color: #666;
+    margin: 15px 0;
+  }
+  
+  .website-builder-view-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .website-builder-view-btn:hover {
+    background-color: #0056b3;
+  }
+  
+
+
+
+
+  /* WebsiteBuilderItem.css */
+.website-builder-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Spacing between items */
+    background-color: #fff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px;
+  }
+  
+  .rank-image-container {
+    position: relative;
+    margin-right: 20px;
+  }
+  
+  .builder-image {
+    width: 50px; /* Your desired image size */
+    height: auto;
+  }
+  
+  .rank {
+    position: absolute;
+    top: -10px; /* Adjust as necessary */
+    left: -10px; /* Adjust as necessary */
+    background-color: #007bff; /* Blue background */
+    color: #fff; /* White text */
+    padding: 5px;
+    border-radius: 50%;
+  }
+  
+  .builder-info {
+    flex-grow: 1;
+  }
+  
+  .builder-info h3 {
+    margin: 0 0 10px 0;
+    color: #333;
+  }
+  
+  .builder-info p {
+    margin: 0;
+    color: #666;
+  }
+  
+  .show-more {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .builder-rating {
+    text-align: center;
+  }
+  
+  .builder-rating span {
+    display: block;
+    font-size: 24px; /* Large font size for rating */
+    color: #28a745; /* Green color */
+  }
+  
+  .view-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue background */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .rank-image-container {
+    position: relative;
+    margin-right: 20px; /* Space between the image and the item content */
+  }
+  
+  .builder-image {
+    display: block; /* makes it easier to apply margins */
+    margin-left: 50px; /* Adjust this value to shift the image to the right */
+    width: 100px; /* Your desired image size */
+    height: auto;
+  }
+  /* WebsiteBuilderItem.css */
+/* ... other styles ... */
+
+.builder-rating-box {
+    background-color: #f1f1f1; /* Light grey background */
+    border-radius: 8px; /* Rounded corners for the box */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Box shadow for a slight depth */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /* This will space out the rating and the button */
+  }
+  
+  .builder-rating {
+    text-align: center;
+  }
+  
+  .rating-number {
+    font-size: 24px;
+    color: #333; /* Dark text for visibility */
+  }
+  
+  .stars {
+    color: #ffc20b; /* Star color */
+    font-size: 20px; /* Star size */
+  }
+  
+  .rating-label {
+    font-size: 10;
+    color: #333;
+  }
+  
+  .view-btn {
+    background-color: #007bff; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* ... other styles ... */
+  

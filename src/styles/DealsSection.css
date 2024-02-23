@@ -1,0 +1,85 @@
+/* DealsSection.css */
+.deals-section {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .deals-container {
+    display: flex;
+    overflow-x: auto; /* Allows horizontal scrolling for small screens */
+    gap: 20px; /* Spacing between cards */
+    justify-content: center; /* Centers cards when they don't overflow */
+    padding: 20px 0;
+  }
+  
+  .deal-card {
+    width: 200px; /* Fixed width for each card */
+    background-color: #fff;
+    border-radius: 10px; /* Rounded corners for the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .deal-image {
+    width: 80%;
+    height: auto;
+    border-radius: 10px; /* Rounded corners for the image */
+  }
+  
+  .deal-info {
+    position: relative;
+    padding: 10px;
+  }
+  
+  .deal-discount-tag {
+    position: absolute;
+    top: -10px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: #ff4d4f; /* Red tag for discount */
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-size: 0.8em;
+  }
+  
+  .deal-pricing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .deal-price {
+    font-size: 1.2em;
+    color: #28a745; /* Green price color */
+  }
+  
+  .deal-original-price {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  .view-deal-btn {
+    background-color: #007bff; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%; /* Full width button */
+    margin-top: 10px;
+  }
+  .deal-card {
+    width: 200px; /* Fixed width for each card */
+    background-color: #fff;
+    border-radius: 10px; /* Rounded corners for the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 10px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions for hover effects */
+  }
+  
+  .deal-card:hover {
+    transform: translateY(-5px); /* Lifts the card up slightly */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Larger shadow for a "raised" effect */
+  }

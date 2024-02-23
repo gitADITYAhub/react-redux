@@ -1,0 +1,60 @@
+/* SignUpSection.css */
+.signup-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f9fa; /* Light background color */
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}
+
+.signup-text {
+  margin-bottom: 10px; /* Spacing between text and input */
+  font-size: 1.2em; /* Larger font size for the text */
+}
+
+.signup-form {
+  display: flex;
+}
+
+.signup-input {
+  padding: 10px;
+  border: 2px solid #007bff; /* Blue border to match the button */
+  border-radius: 5px 0 0 5px; /* Rounded corners on the left side */
+  outline: none; /* Removes the default focus outline */
+  font-size: 1em; /* Sets a default font size for the input */
+}
+
+.signup-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff; /* Blue background color */
+  color: white;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0; /* Rounded corners on the right side */
+  font-size: 1em; /* Sets a default font size for the button */
+  outline: none; /* Removes the default focus outline */
+}
+
+.signup-input:focus,
+.signup-button:focus {
+  border-color: #0056b3; /* Darker blue border on focus */
+}
+
+.signup-button:hover {
+  background-color: #0056b3; /* Slightly darker blue on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .signup-form {
+    flex-direction: column;
+  }
+  .signup-input {
+    border-radius: 5px; /* Rounded corners all around for mobile */
+    margin-bottom: 10px; /* Spacing between input and button on mobile */
+  }
+  .signup-button {
+    border-radius: 5px; /* Rounded corners all around for mobile */
+  }
+}

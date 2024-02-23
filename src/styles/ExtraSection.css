@@ -1,0 +1,88 @@
+/* ExtraSection.css */
+.extra-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fa; /* Light background color */
+    padding: 10px 20px;
+  }
+  
+  .breadcrumbs {
+    color: #6c757d; /* Subdued text color */
+    margin-bottom: 5px; /* Space between breadcrumbs and tabs */
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5px; /* Space between tabs and extra info */
+  }
+  
+  .tabs span {
+    margin-right: 10px; /* Space between tabs */
+    cursor: pointer;
+    color: #007bff; /* Text color for tabs */
+  }
+  
+  .extra-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9em;
+  }
+  
+  .extra-info span {
+    margin-right: 10px; /* Space between items */
+  }
+  
+  select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+  }
+  
+  /* Add media query for responsiveness if necessary */
+  @media (max-width: 768px) {
+    .extra-section {
+      flex-direction: column;
+    }
+  
+    .tabs {
+      flex-wrap: wrap;
+    }
+  
+    .extra-info {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .tabs-container {
+        width: 100%; /* Full width on smaller screens */
+      }
+    
+      .tabs {
+        flex-wrap: wrap; /* Allow tabs to wrap on smaller screens */
+      }
+  }
+  .tabs-container {
+    border: 1px solid #ced4da; /* Add a border around the tabs */
+    padding: 5px; /* Add some padding inside the box */
+    border-radius: 5px; /* Optional: if you want rounded corners */
+    margin-bottom: 10px; /* Add some margin below the container */
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content:center; /* Align tabs to the start */
+  }
+  
+  .tabs span {
+    margin-right: 10px; /* Space between tabs */
+    cursor: pointer;
+    color: #030304; /* Text color for tabs */
+    padding: 10px; /* Add padding to each tab for a better click area */
+    border-radius: 5px; 
+    background-color: #e9ecef;/* Optional: if you want rounded corners for each tab */
+  }
+  
+  .tabs span:hover {
+    background-color: #3c9fd8; /* Add a background color on hover for each tab */
+  }

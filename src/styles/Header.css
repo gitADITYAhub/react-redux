@@ -1,0 +1,26 @@
+/* Header.css */
+.header {
+  text-align: center; /* Centers the text */
+  padding: 20px;
+  background-color: #f8f9fa; /* Light grey background, you can choose a color that fits your design */
+  border-bottom: 1px solid #e1e1e1; /* Adds a subtle line to separate the header from the content */
+}
+
+.header h1 {
+  font-size: 32px; /* Larger font size for the heading */
+  color: #333; /* Darker text color for contrast */
+  margin: 0; /* Removes default margin */
+  padding-bottom: 10px; /* Space below the heading */
+  font-weight: 600; /* Makes the font bolder */
+}
+
+.header-info {
+  font-size: 16px; /* Slightly larger font size for subtext */
+  color: #6c757d; /* Subdued text color for the subtext */
+  margin-top: 10px; /* Adds space between the heading and the subtext */
+}
+
+/* If you want to add more style to the disclosure text */
+.header-info span:last-child {
+  font-style: italic; /* Example of making the disclosure text italic */
+}
